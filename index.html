@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BROJ</title>
+</head>
+<body>
+    <div class="form-div">
+        <form id="form">
+        <label for="name">PRODUCT NAME</label>
+        <input type="text" id="name">
+        <label for="CATAGORY">CATAGORY</label>
+        <input type="text" id="CATAGORY">
+        <label for="PRICE">PRICE</label>
+        <input type="text" id="PRICE">
+        <label for="SALE" >SALE</label>
+        <input type="text" id="SALE">
+        <label for="AMOUNT" id="label"> AMOUNT</label>
+        <input type="number" id="AMOUNT">
+        <input type="submit" id="btn">
+        </form>
+
+    </div>
+
+
+<div class="tabel">
+    <div id="container-sear">
+        <input type="search" id="search" placeholder="Select....">
+        <div id="searchbtn">
+            <button id="searchnam">SERACH WITH NAME</button>
+            <button id="searncat">SERACH WITH CATEGORY</button>
+            <button id="searnprice">SERACH WITH PRICE</button>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>name</th>
+                <th>CATAGORY</th>
+                <th>price</th>
+                <th>sale</th>
+                <th>Total Price</th>
+                <th>delete</th>
+                <th>update</th>
+            </tr>
+        </thead>
+        <tbody id="container">
+        
+        </tbody>
+    </table>
+    <button id="all"> DELETE ALL</button>
+
+</div>
+
+
+    
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
